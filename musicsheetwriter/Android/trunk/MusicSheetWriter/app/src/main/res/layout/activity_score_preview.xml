@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/coordinator_layout"
+    tools:context="com.musicsheetwriter.musicsheetwriter.ScorePreviewActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/fragment_score_preview" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_anchor="@+id/coordinator_layout"
+        app:layout_anchorGravity="bottom|end" >
+
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:id="@+id/fam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:fab_addButtonColorNormal="@color/accent"
+            app:fab_addButtonColorPressed="@color/accent_dark"
+            app:fab_addButtonPlusIconColor="@android:color/white"
+            app:fab_labelStyle="@style/AppTheme.FloatingButtonMenu"
+            app:fab_labelsPosition="left" >
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_icon="@drawable/ic_action_download_image_black"
+                app:fab_colorNormal="@android:color/white"
+                app:fab_colorPressed="@android:color/darker_gray"
+                app:fab_title="@string/action_download_png"
+                app:fab_size="mini" />
+
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:fab_icon="@drawable/ic_action_download_project_black"
+                app:fab_colorNormal="@android:color/white"
+                app:fab_colorPressed="@android:color/darker_gray"
+                app:fab_title="@string/action_download_msw"
+                app:fab_size="mini" />
+
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>
