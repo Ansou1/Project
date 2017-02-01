@@ -1,0 +1,33 @@
+window_sizes 1920 1017 450 1350 720 82
+diagrams
+  usecasediagram_ref 128002 // Software General use case
+    443 257 100 4 0 0
+  usecasediagram_ref 134786 // Software Project Gestion use cases
+    412 355 100 4 0 0
+  usecasediagram_ref 134914 // Software Player use case
+    394 312 100 4 0 0
+  usecasediagram_ref 135042 // Software Editor use cases
+    591 364 100 4 0 0
+  usecasediagram_ref 135170 // Mobile Application General use cases
+    1167 688 100 4 0 0
+  usecasediagram_ref 135298 // Mobile Application Music editor use cases
+    1167 688 100 4 0 0
+  usecasediagram_ref 135682 // Mobile Application Player use cases
+    1167 688 100 4 0 0
+  usecasediagram_ref 135554 // Mobile Application User use cases
+    1167 688 100 4 0 0
+  usecasediagram_ref 149122 // Gestion de compte
+    1167 688 100 4 0 0
+  usecasediagram_ref 155650 // Acceder la communauté
+    617 242 100 4 0 0
+  active  usecasediagram_ref 155778 // Accéder à la vitrine
+    549 228 100 4 0 0
+end
+show_stereotypes
+selected usecasediagram_ref 155778 // Accéder à la vitrine
+open
+  class_ref 128002 // Utilisateur
+  usecaseview_ref 134530 // Mobile Application use cases
+  usecaseview_ref 134658 // Web Site use cases
+end
+end

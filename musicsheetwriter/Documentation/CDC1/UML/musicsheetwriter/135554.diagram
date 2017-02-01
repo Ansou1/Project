@@ -1,0 +1,77 @@
+format 76
+
+classcanvas 128002 class_ref 128002 // Utilisateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 340 258 2000
+end
+usecasecanvas 128386 usecase_ref 138498 // Gérer ses partitions
+  xyzwh 422 164 3005 64 32 label_xy 435 206
+end
+usecasecanvas 128642 usecase_ref 138754 // Accéder à la communauté
+  xyzwh 331 366 3005 64 32 label_xy 317 323
+end
+usecasecanvas 128770 usecase_ref 138882 // Consulter ses informations
+  xyzwh 205 42 3005 64 32 label_xy 99 28
+end
+usecasecanvas 128898 usecase_ref 138370 // Gérer les informations de compte
+  xyzwh 300 35 3005 64 32 label_xy 272 18
+end
+usecasecanvas 129026 usecase_ref 139010 // Télécharger ses partitions
+  xyzwh 493 30 3005 64 32 label_xy 524 13
+end
+usecasecanvas 129282 usecase_ref 139266 // Partager une partition
+  xyzwh 566 55 3005 64 32 label_xy 617 46
+end
+usecasecanvas 129410 usecase_ref 139394 // Rechercher une partition
+  xyzwh 190 303 3005 64 32 label_xy 139 335
+end
+usecasecanvas 129538 usecase_ref 139522 // Rechercher un utilisateur
+  xyzwh 128 370 3005 64 32 label_xy 100 402
+end
+usecasecanvas 131586 usecase_ref 154242 // Mettre une partition en favoris
+  xyzwh 161 429 3005 64 32 label_xy 121 461
+end
+usecasecanvas 131714 usecase_ref 154370 // Enlever une partition des favoris
+  xyzwh 239 479 3010 64 32 label_xy 193 511
+end
+usecasecanvas 131842 usecase_ref 154498 // Consulter une partition
+  xyzwh 368 490 3005 64 32 label_xy 346 522
+end
+usecasecanvas 131970 usecase_ref 154626 // S'abonner à un utilisateur
+  xyzwh 469 477 3005 64 32 label_xy 440 509
+end
+usecasecanvas 132098 usecase_ref 154754 // Se désabonner d'un utilisateur
+  xyzwh 540 426 3005 64 32 label_xy 499 458
+end
+line 129794 --->
+  from ref 128002 z 3006 to ref 128386
+line 129922 --->
+  from ref 128002 z 3006 to ref 128642
+simplerelationcanvas 130562 simplerelation_ref 136450
+  from ref 129282 z 3006 to ref 128386
+end
+simplerelationcanvas 130690 simplerelation_ref 136578
+  from ref 129410 z 3006 to ref 128642
+end
+simplerelationcanvas 130946 simplerelation_ref 136706
+  from ref 129538 z 3006 to ref 128642
+end
+simplerelationcanvas 132482 simplerelation_ref 150018
+  from ref 131586 z 3006 to ref 128642
+end
+simplerelationcanvas 132610 simplerelation_ref 150146
+  from ref 131714 z 3011 to ref 128642
+end
+simplerelationcanvas 132738 simplerelation_ref 150274
+  from ref 131842 z 3006 to ref 128642
+end
+simplerelationcanvas 132866 simplerelation_ref 150402
+  from ref 131970 z 3006 to ref 128642
+end
+simplerelationcanvas 133122 simplerelation_ref 150530
+  from ref 132098 z 3006 to ref 128642
+end
+simplerelationcanvas 133506 simplerelation_ref 128269
+  from ref 129026 z 3006 to ref 128642
+end
+end

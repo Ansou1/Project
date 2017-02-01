@@ -1,0 +1,27 @@
+format 76
+
+classcanvas 128002 class_ref 128002 // Utilisateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 217 112.9 2000
+end
+usecasecanvas 128130 usecase_ref 137986 // Jouer du piano virtuel
+  xyzwh 205 15 3005 64 32 label_xy 242 51
+end
+usecasecanvas 128258 usecase_ref 138114 // Choisir le tempo
+  xyzwh 348 127 3005 64 32 label_xy 343 160
+end
+usecasecanvas 128386 usecase_ref 137346 // Modifier le type de mesure
+  xyzwh 206 239 3005 64 32 label_xy 208 271
+end
+usecasecanvas 128514 usecase_ref 138242 // Enregistrer un ou une partie du morceau
+  xyzwh 66 127 3005 64 32 label_xy 2 160
+end
+line 128642 --->
+  from ref 128002 z 3006 to ref 128130
+line 128770 --->
+  from ref 128002 z 3006 to ref 128514
+line 128898 --->
+  from ref 128002 z 3006 to ref 128258
+line 129026 --->
+  from ref 128002 z 3006 to ref 128386
+end

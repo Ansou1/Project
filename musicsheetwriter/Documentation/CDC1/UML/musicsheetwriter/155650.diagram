@@ -1,0 +1,27 @@
+format 76
+
+classcanvas 128002 class_ref 128002 // Utilisateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 281.3 14 2000
+end
+usecasecanvas 128130 usecase_ref 139394 // Rechercher une partition
+  xyzwh 56 139 3005 64 32 label_xy 30 171
+end
+usecasecanvas 128258 usecase_ref 139522 // Rechercher un utilisateur
+  xyzwh 207 140 3005 64 32 label_xy 180 172
+end
+usecasecanvas 128386 usecase_ref 154498 // Consulter une partition
+  xyzwh 343 140 3005 64 32 label_xy 322 172
+end
+usecasecanvas 128642 usecase_ref 162306 // Consulter un profil utilisateur
+  xyzwh 485 140 3005 64 32 label_xy 450 172
+end
+line 128770 --->
+  from ref 128002 z 3006 to ref 128130
+line 128898 --->
+  from ref 128002 z 3006 to ref 128258
+line 129026 --->
+  from ref 128002 z 3006 to ref 128386
+line 129154 --->
+  from ref 128002 z 3006 to ref 128642
+end

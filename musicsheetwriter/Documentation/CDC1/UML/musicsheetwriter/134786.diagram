@@ -1,0 +1,37 @@
+format 76
+
+classcanvas 128002 class_ref 128002 // Utilisateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 183.4 140.8 2000
+end
+usecasecanvas 128130 usecase_ref 128514 // Créer un projet
+  xyzwh 10 95 3005 64 32 label_xy 6 128
+end
+usecasecanvas 128258 usecase_ref 128386 // Ouvrir un projet
+  xyzwh 172 22 3005 64 32 label_xy 116 48
+end
+usecasecanvas 128386 usecase_ref 128770 // Sauvegarder un projet
+  xyzwh 313 81 3005 64 32 label_xy 274 64
+end
+usecasecanvas 128514 usecase_ref 128642 // Exporter un projet
+  xyzwh 308 241 3005 64 32 label_xy 297 274
+end
+usecasecanvas 128642 usecase_ref 129794 // Modifier informations du projet
+  xyzwh 45 245 3005 64 32 label_xy 6 278
+end
+usecasecanvas 129410 usecase_ref 153090 // Fermer un projet
+  xyzwh 194 253 3005 64 32 label_xy 187 285
+end
+line 128770 --->
+  from ref 128002 z 3006 to ref 128258
+line 128898 --->
+  from ref 128002 z 3006 to ref 128130
+line 129026 --->
+  from ref 128002 z 3006 to ref 128642
+line 129154 --->
+  from ref 128002 z 3006 to ref 128514
+line 129282 --->
+  from ref 128002 z 3006 to ref 128386
+line 129538 --->
+  from ref 128002 z 3006 to ref 129410
+end
