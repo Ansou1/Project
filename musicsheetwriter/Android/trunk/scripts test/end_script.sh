@@ -1,1 +1,0 @@
-mysql -u root --password=msw7531597952 --database=msw_database < script/end_script.sql
