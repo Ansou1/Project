@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmenttab.UserHomeFragment">
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.ProgressBar" />
+
+    <include layout="@layout/alert_no_connection"
+        android:id="@+id/layout_no_connection"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <include layout="@layout/alert_empty_list"
+        android:id="@+id/layout_empty_list"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Layout for scores -->
+            <LinearLayout
+                android:id="@+id/score_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/list_item_horizontal_margin"
+                android:layout_marginEnd="@dimen/list_item_horizontal_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/list_item_height_single_line"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_scores" />
+
+                <Button
+                    android:id="@+id/more_scores"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/see_user_scores"
+                    android:textAppearance="?android:attr/textAppearance"
+                    style="@style/Widget.AppCompat.Button.Borderless" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+
+            <!-- Layout for muses -->
+            <LinearLayout
+                android:id="@+id/subscription_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/list_item_horizontal_margin"
+                android:layout_marginEnd="@dimen/list_item_horizontal_margin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/list_item_height_single_line"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_muses" />
+
+                <Button
+                    android:id="@+id/more_subscriptions"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/see_user_muses"
+                    android:textAppearance="?android:attr/textAppearance"
+                    style="@style/Widget.AppCompat.Button.Borderless" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</FrameLayout>

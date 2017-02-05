@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="@dimen/grid_item_size"
+    android:layout_margin="@dimen/grid_item_padding"
+    android:orientation="vertical"
+    android:elevation="2dp"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:background="@null"
+    app:cardCornerRadius="2dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/picture"
+        android:layout_gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:transitionName="@string/transition_to_user_image" />
+
+    <LinearLayout
+        android:id="@+id/infobox"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_item_infobox_size_double_line"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@drawable/infobox_background"
+        android:transitionName="@string/transition_to_user_infobox">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/grid_item_infobox_size_double_line"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/grid_item_horizontal_margin"
+                android:layout_marginTop="@dimen/grid_item_vertical_margin"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:id="@+id/username"
+                android:singleLine="true"
+                android:layout_gravity="center_vertical"
+                android:textSize="@dimen/grid_item_text_primary_size"
+                android:textColor="@color/grid_info_text" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/list_item_horizontal_margin"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/subscribers_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/grid_item_text_secondary_size"
+                    android:textColor="@color/grid_info_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/subscribers_label"
+                    android:textSize="@dimen/grid_item_text_secondary_size"
+                    android:textColor="@color/grid_info_text" />
+
+                <Space
+                    android:layout_width="@dimen/grid_item_infobox_space_info"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/scores_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="@dimen/grid_item_text_secondary_size"
+                    android:textColor="@color/grid_info_text" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceListItem"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/scores_label"
+                    android:textSize="@dimen/grid_item_text_secondary_size"
+                    android:textColor="@color/grid_info_text" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <CheckBox
+            android:id="@+id/is_subscribe"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:button="@drawable/list_subscribe_white"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmenttab.UserAboutFragment">
+
+    <android.support.v4.widget.ContentLoadingProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        style="@style/Widget.AppCompat.ProgressBar" />
+
+    <include layout="@layout/alert_no_connection"
+        android:id="@+id/layout_no_connection"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/infobox">
+
+        <LinearLayout
+            android:id="@+id/about_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?android:attr/colorBackground"
+                android:elevation="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/list_item_horizontal_margin"
+                    android:layout_marginEnd="@dimen/list_item_horizontal_margin"
+                    android:layout_marginTop="@dimen/list_item_vertical_margin"
+                    android:layout_marginBottom="@dimen/list_item_vertical_margin"
+                    android:gravity="center_vertical"
+                    android:text="@string/user_description"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearance" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/list_item_horizontal_margin"
+                android:layout_marginEnd="@dimen/list_item_horizontal_margin"
+                android:layout_marginTop="@dimen/list_item_vertical_margin"
+                android:layout_marginBottom="@dimen/list_item_vertical_margin"
+                android:textAppearance="?android:attr/textAppearance" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/infobox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/list_item_vertical_margin"
+        android:paddingBottom="@dimen/list_item_vertical_margin"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="?android:attr/colorBackground"
+        android:elevation="4dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/scores_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scores_label"
+                android:textAppearance="?android:attr/textAppearance"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/subscribers_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/subscribers_label"
+                android:textAppearance="?android:attr/textAppearance" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
