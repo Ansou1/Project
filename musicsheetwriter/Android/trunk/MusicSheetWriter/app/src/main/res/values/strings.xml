@@ -1,0 +1,132 @@
+<resources>
+    <string name="app_name" translatable="false">Music Sheet Writer</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="ok">OK</string>
+
+    <string name="search_hint">Search on Music Sheet Writer</string>
+    <string name="search_no_result">No result</string>
+
+    <string name="action_logout">Log out</string>
+    <string name="logging_out">Logging out</string>
+    <string name="action_login">Log in</string>
+    <string name="action_refresh">Refresh</string>
+
+    <string name="tab_home">Home</string>
+    <string name="tab_my_scores">My Scores</string>
+    <string name="tab_scores">Scores</string>
+    <string name="tab_favourite">Favourite scores</string>
+    <string name="tab_subscriptions">Muses</string>
+    <string name="tab_subscribers">Fans</string>
+    <string name="tab_profile">My profile</string>
+    <string name="tab_about_user">About</string>
+    <string name="tab_users">Users</string>
+
+    <string name="subscribers_label">&#160;fans</string>
+    <string name="scores_label">&#160;scores</string>
+    <string name="action_preview">Preview</string>
+    <string name="action_download">Download</string>
+
+    <string name="title_personal_info">Personal info</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_firstname">First name</string>
+    <string name="hint_surname">Family name</string>
+    <string name="hint_email">Email address</string>
+    <string name="hint_description">Description</string>
+    <string name="title_password">Password</string>
+    <string name="action_change_password">Change my password</string>
+    <string name="hint_password">Password</string>
+
+    <string name="edit_profile_success">Personal data successfully updated</string>
+    <string name="select_picture_source">Choose a source</string>
+    <string name="get_picture_title">Downloading</string>
+    <string name="get_picture_message">The image is downloaded and stored on your phone.</string>
+
+    <string name="empty_list">No result found</string>
+    <string name="download_description">Downloading %1$s by %2$s</string>
+    <string name="download_error">The download has encountered an error.</string>
+    <string name="download_complete">Download completed</string>
+
+    <string name="alert_delete_score_title">Score deletion</string>
+    <string name="alert_delete_score_message">Are you sure? Once this operation performed, there will be no way back.</string>
+
+    <string name="log_in_catcher">Log in to share your own music scores, get and manage your subscriptions, your muses and your favourite scores</string>
+
+    <string name="title_activity_login_sign_in">Sign in</string>
+    <string name="title_activity_login_sign_up">Sign up</string>
+    <string name="welcome_on">Welcome on</string>
+    <string name="action_change_account"><u>Change account</u></string>
+    <string name="password_lost"><u>Password lost ?</u></string>
+    <string name="action_create_account">Create an account</string>
+    <string name="success_creation_account_title">One last step !</string>
+    <string name="success_creation_account_message">Your account has successfully been created. You have to validate your account by using the link sent by mail to you.</string>
+
+    <string name="am_account_type" translatable="false">com.musicsheetwriter</string>
+    <string name="am_auth_token_type" translatable="false">com.musicsheetwriter.user.connection.token</string>
+    <string name="am_auth_token_none" translatable="false">noAuthToken</string>
+    <string name="am_user_data_user_id" translatable="false">com.musicsheetwriter.user.user_id</string>
+
+    <string name="title_activity_forgotten_password">Forgotten Password</string>
+    <string name="forgotten_password_explanation">Don\'t worry ! Fill the field below with the address email associated with your Music Sheet Writer account. An email will be sent at this address with a link to reset your password.</string>
+    <string name="success_forgotten_password_title">Email sent</string>
+    <string name="success_forgotten_password_message">An email with a link has been sent to you. Follow this link to reinitialize your password.</string>
+
+    <string name="alert_connection_lost">Connection lost</string>
+    <string name="alert_connection_recovered">Connection recovered</string>
+
+    <string name="error_username_format">The username has a bad format.</string>
+    <string name="error_email_format">The email has a bad format.</string>
+    <string name="error_username_already_used">This username is already used.</string>
+    <string name="error_email_already_used">This email is already used.</string>
+    <string name="error_no_such_email">This email address is associated with no account.</string>
+    <string name="error_wrong_password">Current password not correct.</string>
+    <string name="error_password_format">The password has a bad format. It must contain between 6 and 20 characters with at least one letter and one digit.</string>
+    <string name="error_no_network">No network. Please double check your internet connection.</string>
+    <string name="error_unknown">An unknown error has occurred.</string>
+    <string name="error_message">An error occurred.</string>
+    <string name="error_edit_picture_unable">Unable to change your profile picture</string>
+
+    <string name="error_bad_credentials_title">Bad credentials</string>
+    <string name="error_bad_credentials_message">The couple username/password used is incorrect</string>
+    <string name="error_close_account_title">Close Account</string>
+    <string name="error_close_account_message">The account you are attempting to connect on has been closed. Contact the administrators on our website for more information</string>
+    <string name="error_not_activated_account_title">Account not activated</string>
+    <string name="error_not_activated_account_message">Your account has not been activated yet. Please confirm your address email using the confirmation email.</string>
+
+    <string name="title_activity_user_profile" translatable="false">UserProfileActivity</string>
+    <string name="action_subscribe">Subscribe</string>
+    <string name="action_unsubscribe">Unsubscribe</string>
+    <string name="user_scores">Scores</string>
+    <string name="see_user_scores">See more music scores shared by this user</string>
+    <string name="user_muses">Muses</string>
+    <string name="see_user_muses">See more muses for this user</string>
+    <string name="user_description">About this user</string>
+    <string name="no_description">This user has not described himself yet.</string>
+
+    <string name="transition_to_user_image" translatable="false">transition_to_user_image</string>
+    <string name="transition_to_user_infobox" translatable="false">transition_to_user_infobox</string>
+
+    <string name="title_activity_score_preview" translatable="false">ScorePreviewActivity</string>
+    <string name="action_download_png">Download as image</string>
+    <string name="action_download_msw">Download the project</string>
+    <string name="action_remove_score">Remove this score</string>
+    <string name="action_put_favorite">Add as favorite</string>
+    <string name="action_rem_favorite">Remove from favorite scores</string>
+    <string name="error_load_preview_score">Error in loading the socre preview</string>
+
+    <string name="title_activity_change_password">Change Password</string>
+    <string name="change_password_explanation">Enter you current password and your new password.</string>
+    <string name="hint_current_password">Current Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="success_change_password">Password successfully updated</string>
+
+    <string name="title_activity_subscribers">Subscribers</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

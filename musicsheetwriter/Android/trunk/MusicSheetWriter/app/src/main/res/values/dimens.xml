@@ -1,0 +1,48 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="collapsing_appbar_size">200dp</dimen>
+    <dimen name="collapsing_appbar_infobox_size">80dp</dimen>
+    <dimen name="collapsing_appbar_infobox_margin_horizontal">16dp</dimen>
+    <dimen name="collapsing_appbar_infobox_margin_vertical">5dp</dimen>
+    <dimen name="collapsing_appbar_infobox_space_info">24dp</dimen>
+    <dimen name="layout_vertical_margin">8dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="tab_height_single_line">48dp</dimen>
+    <dimen name="tab_height_double_line">72dp</dimen>
+    <dimen name="tab_indicator_height">2dp</dimen>
+    <dimen name="tab_text_horizontal_padding">12dp</dimen>
+    <dimen name="expanded_title_start">34sp</dimen>
+    <dimen name="expanded_title_end">21sp</dimen>
+    <dimen name="list_item_text_primary_size">16sp</dimen>
+    <dimen name="list_item_text_secondary_size">14sp</dimen>
+    <dimen name="list_item_horizontal_margin">16dp</dimen>
+    <dimen name="list_item_vertical_margin">16dp</dimen>
+    <dimen name="list_item_height_single_line">48dp</dimen>
+    <dimen name="list_item_height_double_line">72dp</dimen>
+    <dimen name="list_item_picture_size_single_line">40dp</dimen>
+    <dimen name="list_item_picture_size_double_line">60dp</dimen>
+    <dimen name="grid_item_size">180dp</dimen>
+    <dimen name="grid_item_padding">4dp</dimen>
+    <dimen name="grid_item_text_primary_size">16sp</dimen>
+    <dimen name="grid_item_text_secondary_size">12sp</dimen>
+    <dimen name="grid_item_infobox_size_double_line">68dp</dimen>
+    <dimen name="grid_item_horizontal_margin">16dp</dimen>
+    <dimen name="grid_item_vertical_margin">16dp</dimen>
+    <dimen name="grid_item_infobox_space_info">8dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="profile_picture_size">68dp</dimen>
+    <dimen name="profile_picture_edit_button_size">24dp</dimen>
+    <dimen name="fab_profile_top_margin">72dp</dimen>
+    <dimen name="log_in_picture_margin">16dp</dimen>
+    <dimen name="login_msw_logo_size">200dp</dimen>
+    <dimen name="login_msw_logo_size_mini">50dp</dimen>
+    <dimen name="login_msw_logo_margin">16dp</dimen>
+    <dimen name="login_picture_username_space">16dp</dimen>
+    <dimen name="login_username_changeaccount_space">8dp</dimen>
+    <dimen name="login_profile_picture_size">40dp</dimen>
+    <dimen name="login_action_button_horizontal_margin">16dp</dimen>
+    <dimen name="login_action_button_vertical_margin">16dp</dimen>
+
+</resources>

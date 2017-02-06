@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height_single_line"
+    android:orientation="horizontal"
+    android:background="?android:attr/selectableItemBackground">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/list_item_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textSize="@dimen/list_item_text_primary_size"
+            android:id="@+id/title" />
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/is_favourite"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/list_item_horizontal_margin"
+        android:layout_gravity="center_vertical"
+        android:button="@drawable/list_favorite_black"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/score_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/list_item_horizontal_margin"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_action_download_black"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+
+</LinearLayout>
