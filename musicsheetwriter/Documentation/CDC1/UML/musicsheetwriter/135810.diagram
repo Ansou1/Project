@@ -1,0 +1,31 @@
+format 76
+
+classcanvas 128002 class_ref 128002 // Utilisateur
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 242.5 20.5 2000
+end
+usecasecanvas 129538 usecase_ref 138754 // Accéder à la communauté
+  xyzwh 74 157 3005 64 32 label_xy 43 189
+end
+usecasecanvas 129666 usecase_ref 162178 // Accéder à la vitrine
+  xyzwh 396 158 3005 64 32 label_xy 381 190
+end
+usecasecanvas 129794 usecase_ref 137858 // Gérer son compte utilisateur
+  xyzwh 252 158 3005 64 32 label_xy 216 190
+end
+classcanvas 129922 class_ref 134530 // Utilisateur_web
+  class_drawing_mode default show_context_mode default show_stereotype_properties default
+  xyz 363 17 2000
+end
+relationcanvas 130178 relation_ref 128130 // <generalisation>
+  from ref 129922 z 2001 to ref 128002
+  no_role_a no_role_b
+  no_multiplicity_a no_multiplicity_b
+end
+line 130306 --->
+  from ref 128002 z 3006 to ref 129538
+line 130434 --->
+  from ref 128002 z 3006 to ref 129794
+line 130562 --->
+  from ref 129922 z 3006 to ref 129666
+end

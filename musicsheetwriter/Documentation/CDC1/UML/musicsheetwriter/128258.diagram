@@ -1,0 +1,78 @@
+format 76
+
+activitynodecanvas 128002 activitynode_ref 128386 // initial_node
+  xyz 266 18 2000
+end
+activitynodecanvas 128130 activitynode_ref 128514 // activity_final
+  xyz 284 588 2000
+end
+activityactioncanvas 128258 activityaction_ref 128770 // activity action L'utilisateur demande de modifier les informations du projet
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 212 67 2000 152 88
+end
+activityactioncanvas 128386 activityaction_ref 128898 // activity action L'utilisateur remplis les informations nécessaires
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 233 203 2000 107 74
+end
+activityactioncanvas 128514 activityaction_ref 129026 // activity action Vérification des informations
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 249 315 2000 100 60
+end
+activityactioncanvas 128642 activityaction_ref 129154 // activity action Création du projet
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 255 504 2000 100 60
+end
+activityactioncanvas 128770 activityaction_ref 129282 // activity action L'utilisateur est notifié des erreurs
+  show_infonote default drawing_language default show_stereotype_properties default
+  show_opaque_action_definition default
+  xyzwh 525 431 2000 100 60
+end
+activitynodecanvas 128898 activitynode_ref 128642 // decision
+  xyz 291 438 2000
+end
+flowcanvas 129026 flow_ref 129026 // <flow>
+  
+  from ref 128002 z 2001 to ref 128258
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129154 flow_ref 129154 // <flow>
+  
+  from ref 128258 z 2001 to ref 128386
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129282 flow_ref 129282 // <flow>
+  
+  from ref 128386 z 2001 to ref 128514
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129410 flow_ref 129410 // <flow>
+  
+  from ref 128514 z 2001 to ref 128898
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129538 flow_ref 129538 // <flow>
+  
+  from ref 128898 z 2001 to ref 128642
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129666 flow_ref 129666 // <flow>
+  
+  from ref 128898 z 2001 to ref 128770
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 129794 flow_ref 129794 // <flow>
+  
+  from ref 128770 z 2001 to point 571 242
+  line 129922 z 2001 to ref 128386
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+flowcanvas 130050 flow_ref 129922 // <flow>
+  
+  from ref 128642 z 2001 to ref 128130
+  show_infonote default drawing_language default show_stereotype_properties default write_horizontally default
+end
+end
