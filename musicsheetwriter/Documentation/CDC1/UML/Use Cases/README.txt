@@ -1,0 +1,2 @@
+Mobile_application_player_use_cases.png n'est pas donné car il s'agit du même que Software_player_use_cases.png
+Web_site_user_use_cases.png n'est pas donné car il s'agit du même que Mobile_application_user_use_cases.png
