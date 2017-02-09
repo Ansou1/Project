@@ -1,0 +1,9 @@
+Application IOS :
+	- Un device (smartphone) avec IOS
+	- La version d’IOS est au minimum 9.0 
+	- Une connexion internet
+	- La partie API du site web doit être installée.
+	- Permissions requises:
+		- Connexion ‡ internet
+		- Appareil photo
+		- Gestion des comptes enregistrés sur le telephone

@@ -1,0 +1,11 @@
+Application Android :
+	- Un device (tablette ou smartphone) avec Android
+	- La version d'Android est au minimum 4.0.3 (sdk 15)
+	- Une connexion à internet
+	- La partie API du site web doit être installée.
+	- Permissions requises:
+		- Accès à internet
+		- Ecriture dans la memoire du telephone
+		- Téléchargement sans notification
+		- Appareil Photo
+		- Gestion des comptes enregistrés sur le telephone
