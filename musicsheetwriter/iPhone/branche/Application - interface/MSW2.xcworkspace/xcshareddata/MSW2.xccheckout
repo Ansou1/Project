@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>08DFEFFB-7CDF-406F-A457-DF9CAFF51E25</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MSW2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0108a9b8-6948-4b96-8ada-57a6b790f33e</key>
+		<string>https://labeip.epitech.eu/svn/2017/musicsheetwriter</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPhone/branche/Application - interface/MSW2.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0108a9b8-6948-4b96-8ada-57a6b790f33e</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0108a9b8-6948-4b96-8ada-57a6b790f33e</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0108a9b8-6948-4b96-8ada-57a6b790f33e</string>
+			<key>IDESourceControlWCCName</key>
+			<string>musicsheetwriter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

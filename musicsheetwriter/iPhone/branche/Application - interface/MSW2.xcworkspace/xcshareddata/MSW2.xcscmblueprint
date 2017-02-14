@@ -1,0 +1,32 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0108a9b8-6948-4b96-8ada-57a6b790f33e",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0108a9b8-6948-4b96-8ada-57a6b790f33e" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0108a9b8-6948-4b96-8ada-57a6b790f33e" : 0,
+    "0049B3406BAD2BA2C0EFC6EF723ABB8F320AF3DF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "08DFEFFB-7CDF-406F-A457-DF9CAFF51E25",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0108a9b8-6948-4b96-8ada-57a6b790f33e" : "musicsheetwriter",
+    "0049B3406BAD2BA2C0EFC6EF723ABB8F320AF3DF" : "..\/Desktop\/project"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MSW2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iPhone\/branche\/Application - interface\/MSW2.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/simon-o\/MyRepository.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0049B3406BAD2BA2C0EFC6EF723ABB8F320AF3DF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/labeip.epitech.eu\/svn\/2017\/musicsheetwriter",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0108a9b8-6948-4b96-8ada-57a6b790f33e"
+    }
+  ]
+}
