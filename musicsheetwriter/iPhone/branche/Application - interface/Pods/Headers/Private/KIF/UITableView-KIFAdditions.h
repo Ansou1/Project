@@ -1,0 +1,5 @@
+XSym
+0049
+6246f8b43ba818bce9f427644b3ef601
+../../../KIF/Additions/UITableView-KIFAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

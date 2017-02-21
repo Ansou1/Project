@@ -1,0 +1,5 @@
+XSym
+0060
+a91a950cc26e96cffe660f1d2f79b4cc
+../../../KIF/Additions/UIAccessibilityElement-KIFAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
