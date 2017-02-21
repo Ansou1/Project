@@ -1,0 +1,5 @@
+XSym
+0041
+119c4e3e0184f6801d11c2d74b7623ba
+../../../KIF/Classes/UIAutomationHelper.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      

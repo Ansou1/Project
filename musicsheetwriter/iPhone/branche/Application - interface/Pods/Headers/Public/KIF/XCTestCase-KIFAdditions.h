@@ -1,0 +1,5 @@
+XSym
+0048
+e82c42e91971081f5659db0dd675d206
+../../../KIF/Additions/XCTestCase-KIFAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

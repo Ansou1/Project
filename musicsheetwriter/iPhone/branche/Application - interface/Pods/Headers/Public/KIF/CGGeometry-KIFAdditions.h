@@ -1,0 +1,5 @@
+XSym
+0048
+8e3711cba6b403bb59722ef00e2fc6c6
+../../../KIF/Additions/CGGeometry-KIFAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               

@@ -1,0 +1,5 @@
+XSym
+0045
+822a4168e6b6432da076a4fe068a8cbd
+../../../KIF/Additions/NSError-KIFAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  

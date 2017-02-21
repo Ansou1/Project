@@ -1,0 +1,5 @@
+XSym
+0051
+f37bd499d5da5b7c0ed0efce7952b47d
+../../../KIF/Additions/NSFileManager-KIFAdditions.h
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
