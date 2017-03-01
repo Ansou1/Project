@@ -1,0 +1,11 @@
+Pour lancer le projet il faut suivre certaine etape pour la reinstallation.
+L'indexation ne peut pas se faire car l'exportation de cocoapod et KIF ne fonctionne pas sur le svn.
+
+Il faut donc reprendre tous les fichiers un par un et les transfere en drag n' drop dans votre PROJET ( et non workspace) avec Xcode.
+
+Une fois le transfert de tout les fichiers fait il suffit d'installer CocoaPod.
+https://www.youtube.com/watch?v=9_FbAlq2g9o
+Il faut arreter de suivre la video au moment du remplissage du Podfile. A partir de la suiver la prochaine video.
+
+Une fois installer il faut ajouter le Framework KIF pour le debug.
+https://www.youtube.com/watch?v=d5F8BT1Jy-Q
