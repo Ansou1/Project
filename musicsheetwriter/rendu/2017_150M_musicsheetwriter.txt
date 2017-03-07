@@ -1,0 +1,5 @@
+Music Sheet Writer est un logiciel à destination des compositeurs souhaitant créer et éditer leurs partitions de musique facilement. Les musiciens pourront brancher un piano ou une guitare sur leurs ordinateurs, jouer normalement et voir la partition s'écrire sous leurs yeux.
+
+En effet, le logiciel reconnaît les notes jouées depuis l'instrument de l'utilisateur et écrit automatiquement la partition pour le compositeur. Cela permet à chaque utilisateur de se concentrer sur la musique plus que sur l’écriture de cette dernière, leur faisant ainsi gagner du temps. Les musiciens les plus exigeants ne seront pas en reste non plus, puisque Music Sheet Writer intégrera des fonctionnalités avancées d'édition de partition.
+
+Disponible sur Windows et Mac OS, Music Sheet Writer est aussi accompagné d’un site internet et d’applications mobiles pour iPhone, Android et Windows Phone qui viennent enrichir l’expérience Music Sheet Writer. Ils permettront aux utilisateurs d’avoir accès à la communauté et ainsi partager et consulter leurs partitions où qu’ils soient.
