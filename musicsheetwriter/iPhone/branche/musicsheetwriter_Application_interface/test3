@@ -1,0 +1,44 @@
+▸ Building MSW/MSW2 [Debug]
+▸ Check Dependencies
+▸ Building Pods/KIF [Debug]
+▸ Check Dependencies
+▸ Building Pods/Pods-MSW2Tests [Debug]
+▸ Check Dependencies
+▸ Building MSW/MSW2Tests [Debug]
+▸ Check Dependencies
+▸ Running script 'Check Pods Manifest.lock'
+▸ Running script 'Embed Pods Frameworks'
+▸ Running script 'Copy Pods Resources'
+All tests
+Test Suite MSW2Tests.xctest started
+LogTest
+    ✓ test00LogFail (3.399 seconds)
+    ✓ test01MotDePasseOublie (8.548 seconds)
+    ✓ test02Inscription (7.422 seconds)
+    ✓ test03Log (3.926 seconds)
+    ✓ test04Deconnexion (5.903 seconds)
+    ✓ test05ChangerDeMotPasse (14.272 seconds)
+    ✓ test06ChangeFirstname (5.414 seconds)
+    ✓ test07Menu (6.868 seconds)
+    ✓ test08Swipe (5.708 seconds)
+    ✓ test09SwipeMenu (2.007 seconds)
+    ✓ test10Ajouter (5.572 seconds)
+    ✓ test11 (0.000 seconds)
+LoginTest
+    ✓ testConnexion (2.451 seconds)
+    ✓ testConnexionfausse (1.171 seconds)
+    ✓ testGetMethodWithId (0.687 seconds)
+    ✓ testGetMethodWithString (0.704 seconds)
+    ✓ testOptionsMethodWithString (0.678 seconds)
+    ✓ testPostMethodForSuscribeWithUsername (0.778 seconds)
+    ✓ testPostMethodWithIdentifier (1.185 seconds)
+    ✓ testPostMethodWithString (1.170 seconds)
+    ✓ testPutMethodWithString (0.740 seconds)
+testApiMethod
+    ✓ testGetMethodWithId (0.697 seconds)
+    ✓ testPostMethodForSuscribeWithUsername (0.707 seconds)
+    ✓ testPostMethodWithIdentifier (1.173 seconds)
+    ✓ testPostMethodWithString (1.170 seconds)
+
+
+Executed 25 tests, with 0 failures (0 unexpected) in 82.353 (82.365) seconds
