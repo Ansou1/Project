@@ -1,0 +1,48 @@
+[Titre]
+Liste des prerequis
+
+[Version]
+2.0
+
+[Contenu]
+Logiciel :
+	- Windows 7 minimum
+	- Mac OS X 10 minimum
+	- 45,93 MB d'espace libre
+	- Génération depuis un instrument (Guitare, Piano) :
+		- Une entrée Jack 3.5
+	- Génération depuis un instrument MIDI :
+		- Une entrée MIDI
+
+Applications Mobiles :
+	- iOS :
+		- iPhone
+		- iOS 9.0 minimum
+		- Permissions :
+			- Connexion à internet
+			- Appareil photo
+			- Gestion des comptes enregistrés sur le telephone
+	- Android : 
+		- Smartphone Android
+		- Android 4.0.3 minimum (Ice Cream Sandwich)
+		- Permissions :
+			- Accès à internet
+			- Ecriture dans la memoire du telephone
+			- Téléchargement sans notification
+			- Appareil Photo
+			- Gestion des comptes enregistrés sur le telephone
+	- Windows Phone :
+		- Smartphone Windows Phone
+		- Windows Phone 8.1 minimum
+		- Permissions :
+			- Accès internet
+			- Ecriture dans la memoire du telephone
+			- Appareil photo
+			- Gestion des comptes enregistrés sur le telephone
+
+Site internet:
+	- Connexion internet
+	- Chrome 49
+	- Firefox 44
+	- Opera 36
+	- Safari 9
