@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScoreFactory</class>
+ <widget class="QDialog" name="ScoreFactory">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>360</width>
+    <height>170</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QSplitter" name="splitter_4">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Nom de la partition :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Partition"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_3">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Compositeur :</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="Compositeur"/>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Chiffrage de la mesure :</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_4">
+      <property name="text">
+       <string>Rythme</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Ryhtme">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>64</number>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Battements</string>
+      </property>
+     </widget>
+     <widget class="QSpinBox" name="Battements">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+      <property name="maximum">
+       <number>64</number>
+      </property>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_2">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QLabel" name="label_6">
+      <property name="text">
+       <string>Tempo :</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="Tempo">
+      <item>
+       <property name="text">
+        <string>largo</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>lento</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>adagio</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>andante</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>moderato</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>allegro</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>presto</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>prestissimo</string>
+       </property>
+      </item>
+     </widget>
+    </widget>
+   </item>
+   <item>
+    <widget class="QSplitter" name="splitter_5">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <widget class="QPushButton" name="Valider">
+      <property name="text">
+       <string>Valider</string>
+      </property>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
